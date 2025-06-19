@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>AI Virtual Dressing Room</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+   <h2>Upload an Image for Prediction</h2>
+
+   <form id="uploadForm">
+    <input type="file" id="ImageUpload" accept="image/*" />
+    <button type="submit">Prediction</button>
+   </form>
+
+   <canvas id="canvas"></canvas>
+   <div id=""predictions></div>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
